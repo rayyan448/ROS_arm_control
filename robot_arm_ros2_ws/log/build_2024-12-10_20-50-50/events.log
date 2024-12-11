@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000655] (custom_arm_controller) JobQueued: {'identifier': 'custom_arm_controller', 'dependencies': OrderedDict()}
+[0.001066] (joint_state_publisher) JobQueued: {'identifier': 'joint_state_publisher', 'dependencies': OrderedDict()}
+[0.001363] (robot_arm_description) JobQueued: {'identifier': 'robot_arm_description', 'dependencies': OrderedDict()}
+[0.001566] (joint_state_publisher_gui) JobQueued: {'identifier': 'joint_state_publisher_gui', 'dependencies': OrderedDict([('joint_state_publisher', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher')])}
+[0.001766] (moveit_pkg) JobQueued: {'identifier': 'moveit_pkg', 'dependencies': OrderedDict([('joint_state_publisher', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher'), ('robot_arm_description', '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description'), ('joint_state_publisher_gui', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui')])}
+[0.001981] (joint_state_publisher) JobStarted: {'identifier': 'joint_state_publisher'}
+[0.049965] (robot_arm_description) JobStarted: {'identifier': 'robot_arm_description'}
+[0.078263] (custom_arm_controller) JobStarted: {'identifier': 'custom_arm_controller'}
+[0.093854] (-) TimerEvent: {}
+[0.194424] (-) TimerEvent: {}
+[0.295315] (-) TimerEvent: {}
+[0.401305] (-) TimerEvent: {}
+[0.506748] (-) TimerEvent: {}
+[0.607448] (-) TimerEvent: {}
+[0.708143] (-) TimerEvent: {}
+[0.809309] (-) TimerEvent: {}
+[0.910396] (-) TimerEvent: {}
+[1.011642] (-) TimerEvent: {}
+[1.112953] (-) TimerEvent: {}
+[1.213650] (-) TimerEvent: {}
+[1.314344] (-) TimerEvent: {}
+[1.418246] (-) TimerEvent: {}
+[1.446114] (robot_arm_description) JobProgress: {'identifier': 'robot_arm_description', 'progress': 'cmake'}
+[1.449554] (robot_arm_description) JobProgress: {'identifier': 'robot_arm_description', 'progress': 'build'}
+[1.452275] (robot_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description', '--', '-j4', '-l4'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rayyan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rayyan'), ('OLDPWD', '/home/rayyan'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rayyan'), ('NAME', 'DESKTOP-56CI0N9'), ('WSL_INTEROP', '/run/WSL/259216_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.518613] (-) TimerEvent: {}
+[1.619171] (-) TimerEvent: {}
+[1.722874] (-) TimerEvent: {}
+[1.825711] (-) TimerEvent: {}
+[1.931456] (-) TimerEvent: {}
+[2.033987] (-) TimerEvent: {}
+[2.134746] (-) TimerEvent: {}
+[2.235805] (-) TimerEvent: {}
+[2.337048] (-) TimerEvent: {}
+[2.438713] (-) TimerEvent: {}
+[2.547698] (-) TimerEvent: {}
+[2.650249] (-) TimerEvent: {}
+[2.752606] (-) TimerEvent: {}
+[2.853841] (-) TimerEvent: {}
+[2.954757] (-) TimerEvent: {}
+[3.055367] (-) TimerEvent: {}
+[3.162562] (robot_arm_description) CommandEnded: {'returncode': 0}
+[3.164746] (-) TimerEvent: {}
+[3.170894] (robot_arm_description) JobProgress: {'identifier': 'robot_arm_description', 'progress': 'install'}
+[3.197264] (robot_arm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rayyan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rayyan'), ('OLDPWD', '/home/rayyan'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rayyan'), ('NAME', 'DESKTOP-56CI0N9'), ('WSL_INTEROP', '/run/WSL/259216_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[3.217263] (robot_arm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.219638] (robot_arm_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.221110] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//urdf/robot_arm.urdf\n'}
+[3.222780] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//rviz/config.rviz\n'}
+[3.223370] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//launch/display.launch.py\n'}
+[3.226030] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/arm_1.stl\n'}
+[3.226634] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/arm_2.stl\n'}
+[3.227958] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/base.stl\n'}
+[3.228540] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/cube.stl\n'}
+[3.229177] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/gripper.stl\n'}
+[3.230020] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/gripper_1.stl\n'}
+[3.231669] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/waist.stl\n'}
+[3.233076] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/waist_1.stl\n'}
+[3.234024] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/package_run_dependencies/robot_arm_description\n'}
+[3.234915] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/parent_prefix_path/robot_arm_description\n'}
+[3.240571] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.sh\n'}
+[3.240842] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.dsv\n'}
+[3.241043] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/path.sh\n'}
+[3.241323] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/path.dsv\n'}
+[3.241533] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.bash\n'}
+[3.241799] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.sh\n'}
+[3.242019] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.zsh\n'}
+[3.253421] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.dsv\n'}
+[3.253882] (robot_arm_description) StdoutLine: {'line': b'-- Symlinking: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.dsv\n'}
+[3.261063] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/packages/robot_arm_description\n'}
+[3.261948] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig.cmake\n'}
+[3.263273] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig-version.cmake\n'}
+[3.264461] (robot_arm_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.xml\n'}
+[3.264859] (-) TimerEvent: {}
+[3.282193] (robot_arm_description) CommandEnded: {'returncode': 0}
+[3.347773] (robot_arm_description) JobEnded: {'identifier': 'robot_arm_description', 'rc': 0}
+[3.366769] (-) TimerEvent: {}
+[3.468210] (-) TimerEvent: {}
+[3.568893] (-) TimerEvent: {}
+[3.669723] (-) TimerEvent: {}
+[3.777303] (-) TimerEvent: {}
+[3.878195] (-) TimerEvent: {}
+[3.980756] (-) TimerEvent: {}
+[4.081427] (-) TimerEvent: {}
+[4.181983] (-) TimerEvent: {}
+[4.282672] (-) TimerEvent: {}
+[4.383222] (-) TimerEvent: {}
+[4.485987] (-) TimerEvent: {}
+[4.587158] (-) TimerEvent: {}
+[4.688761] (-) TimerEvent: {}
+[4.789639] (-) TimerEvent: {}
+[4.890308] (-) TimerEvent: {}
+[4.990893] (-) TimerEvent: {}
+[5.091721] (-) TimerEvent: {}
+[5.192299] (-) TimerEvent: {}
+[5.292960] (-) TimerEvent: {}
+[5.393568] (-) TimerEvent: {}
+[5.495453] (-) TimerEvent: {}
+[5.527212] (joint_state_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/joint_state_publisher', 'build', '--build-base', '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/build', 'install', '--record', '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rayyan', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rayyan', 'OLDPWD': '/home/rayyan', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rayyan', 'NAME': 'DESKTOP-56CI0N9', 'WSL_INTEROP': '/run/WSL/259216_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description', 'WSLENV': ''}, 'shell': False}
+[5.595403] (-) TimerEvent: {}
+[5.656638] (custom_arm_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/custom_arm_controller', 'build', '--build-base', '/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/build', 'install', '--record', '/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rayyan', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rayyan', 'OLDPWD': '/home/rayyan', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rayyan', 'NAME': 'DESKTOP-56CI0N9', 'WSL_INTEROP': '/run/WSL/259216_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description', 'WSLENV': ''}, 'shell': False}
+[5.695660] (-) TimerEvent: {}
+[5.798091] (-) TimerEvent: {}
+[5.899447] (-) TimerEvent: {}
+[6.001121] (-) TimerEvent: {}
+[6.109564] (-) TimerEvent: {}
+[6.210124] (-) TimerEvent: {}
+[6.313464] (-) TimerEvent: {}
+[6.416501] (-) TimerEvent: {}
+[6.518816] (-) TimerEvent: {}
+[6.619664] (-) TimerEvent: {}
+[6.720246] (-) TimerEvent: {}
+[6.823282] (-) TimerEvent: {}
+[6.926090] (-) TimerEvent: {}
+[7.029079] (-) TimerEvent: {}
+[7.147852] (-) TimerEvent: {}
+[7.251409] (-) TimerEvent: {}
+[7.297239] (joint_state_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[7.302204] (joint_state_publisher) StdoutLine: {'line': b'writing ../../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO\n'}
+[7.304291] (joint_state_publisher) StdoutLine: {'line': b'writing dependency_links to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt\n'}
+[7.304680] (joint_state_publisher) StdoutLine: {'line': b'writing entry points to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt\n'}
+[7.305040] (joint_state_publisher) StdoutLine: {'line': b'writing requirements to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt\n'}
+[7.305304] (joint_state_publisher) StdoutLine: {'line': b'writing top-level names to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt\n'}
+[7.314210] (joint_state_publisher) StdoutLine: {'line': b"reading manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'\n"}
+[7.315437] (joint_state_publisher) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.335229] (joint_state_publisher) StdoutLine: {'line': b"writing manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'\n"}
+[7.336547] (joint_state_publisher) StdoutLine: {'line': b'running build\n'}
+[7.336997] (joint_state_publisher) StdoutLine: {'line': b'running build_py\n'}
+[7.337324] (joint_state_publisher) StdoutLine: {'line': b'running install\n'}
+[7.340078] (joint_state_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[7.344504] (joint_state_publisher) StdoutLine: {'line': b'running install_data\n'}
+[7.351596] (-) TimerEvent: {}
+[7.352651] (joint_state_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.360001] (joint_state_publisher) StdoutLine: {'line': b"removing '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info' (and everything under it)\n"}
+[7.368124] (joint_state_publisher) StdoutLine: {'line': b'Copying ../../../build/joint_state_publisher/joint_state_publisher.egg-info to /home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info\n'}
+[7.371255] (joint_state_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[7.451735] (-) TimerEvent: {}
+[7.540207] (custom_arm_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.545400] (custom_arm_controller) StdoutLine: {'line': b'writing ../../build/custom_arm_controller/custom_arm_controller.egg-info/PKG-INFO\n'}
+[7.552473] (-) TimerEvent: {}
+[7.572448] (joint_state_publisher) StdoutLine: {'line': b'Installing joint_state_publisher script to /home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/joint_state_publisher\n'}
+[7.575194] (joint_state_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/install.log'\n"}
+[7.608203] (custom_arm_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/custom_arm_controller/custom_arm_controller.egg-info/dependency_links.txt\n'}
+[7.608649] (custom_arm_controller) StdoutLine: {'line': b'writing entry points to ../../build/custom_arm_controller/custom_arm_controller.egg-info/entry_points.txt\n'}
+[7.609058] (custom_arm_controller) StdoutLine: {'line': b'writing requirements to ../../build/custom_arm_controller/custom_arm_controller.egg-info/requires.txt\n'}
+[7.609330] (custom_arm_controller) StdoutLine: {'line': b'writing top-level names to ../../build/custom_arm_controller/custom_arm_controller.egg-info/top_level.txt\n'}
+[7.612938] (custom_arm_controller) StdoutLine: {'line': b"reading manifest file '../../build/custom_arm_controller/custom_arm_controller.egg-info/SOURCES.txt'\n"}
+[7.657080] (-) TimerEvent: {}
+[7.662342] (custom_arm_controller) StdoutLine: {'line': b"writing manifest file '../../build/custom_arm_controller/custom_arm_controller.egg-info/SOURCES.txt'\n"}
+[7.662872] (custom_arm_controller) StdoutLine: {'line': b'running build\n'}
+[7.663274] (custom_arm_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.663602] (custom_arm_controller) StdoutLine: {'line': b'copying custom_arm_controller/arm_controller.py -> /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/build/lib/custom_arm_controller\n'}
+[7.663883] (custom_arm_controller) StdoutLine: {'line': b'running install\n'}
+[7.664196] (custom_arm_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.679719] (custom_arm_controller) StdoutLine: {'line': b'copying /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/build/lib/custom_arm_controller/arm_controller.py -> /home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages/custom_arm_controller\n'}
+[7.680173] (custom_arm_controller) StdoutLine: {'line': b'byte-compiling /home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages/custom_arm_controller/arm_controller.py to arm_controller.cpython-310.pyc\n'}
+[7.680454] (custom_arm_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.680837] (custom_arm_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.701724] (custom_arm_controller) StdoutLine: {'line': b"removing '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages/custom_arm_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.712453] (custom_arm_controller) StdoutLine: {'line': b'Copying ../../build/custom_arm_controller/custom_arm_controller.egg-info to /home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages/custom_arm_controller-0.0.0-py3.10.egg-info\n'}
+[7.748759] (custom_arm_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.768183] (-) TimerEvent: {}
+[7.852205] (joint_state_publisher) CommandEnded: {'returncode': 0}
+[7.885301] (-) TimerEvent: {}
+[7.920827] (custom_arm_controller) StdoutLine: {'line': b'Installing arm_controller script to /home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/custom_arm_controller\n'}
+[7.921388] (custom_arm_controller) StdoutLine: {'line': b"writing list of installed files to '/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/install.log'\n"}
+[7.971271] (joint_state_publisher) JobEnded: {'identifier': 'joint_state_publisher', 'rc': 0}
+[7.993232] (-) TimerEvent: {}
+[7.994160] (joint_state_publisher_gui) JobStarted: {'identifier': 'joint_state_publisher_gui'}
+[8.093464] (-) TimerEvent: {}
+[8.151848] (custom_arm_controller) CommandEnded: {'returncode': 0}
+[8.204539] (custom_arm_controller) JobEnded: {'identifier': 'custom_arm_controller', 'rc': 0}
+[8.206364] (-) TimerEvent: {}
+[8.308169] (-) TimerEvent: {}
+[8.408929] (-) TimerEvent: {}
+[8.520900] (-) TimerEvent: {}
+[8.627887] (-) TimerEvent: {}
+[8.732114] (-) TimerEvent: {}
+[8.834028] (-) TimerEvent: {}
+[8.934656] (-) TimerEvent: {}
+[9.035267] (-) TimerEvent: {}
+[9.137153] (-) TimerEvent: {}
+[9.237787] (-) TimerEvent: {}
+[9.338846] (-) TimerEvent: {}
+[9.442416] (-) TimerEvent: {}
+[9.543877] (-) TimerEvent: {}
+[9.644687] (-) TimerEvent: {}
+[9.745437] (-) TimerEvent: {}
+[9.846717] (-) TimerEvent: {}
+[9.947486] (-) TimerEvent: {}
+[10.048227] (-) TimerEvent: {}
+[10.149276] (-) TimerEvent: {}
+[10.254687] (-) TimerEvent: {}
+[10.357772] (-) TimerEvent: {}
+[10.458472] (-) TimerEvent: {}
+[10.559508] (-) TimerEvent: {}
+[10.660737] (-) TimerEvent: {}
+[10.761827] (-) TimerEvent: {}
+[10.862506] (-) TimerEvent: {}
+[10.965070] (-) TimerEvent: {}
+[11.066594] (-) TimerEvent: {}
+[11.173795] (-) TimerEvent: {}
+[11.274400] (-) TimerEvent: {}
+[11.382262] (-) TimerEvent: {}
+[11.484310] (-) TimerEvent: {}
+[11.585029] (-) TimerEvent: {}
+[11.685734] (-) TimerEvent: {}
+[11.786855] (-) TimerEvent: {}
+[11.889277] (-) TimerEvent: {}
+[11.990434] (-) TimerEvent: {}
+[12.094561] (-) TimerEvent: {}
+[12.195323] (-) TimerEvent: {}
+[12.302646] (-) TimerEvent: {}
+[12.403205] (-) TimerEvent: {}
+[12.503709] (-) TimerEvent: {}
+[12.604404] (-) TimerEvent: {}
+[12.706995] (-) TimerEvent: {}
+[12.810949] (-) TimerEvent: {}
+[12.884587] (joint_state_publisher_gui) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/joint_state_publisher_gui', 'build', '--build-base', '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/build', 'install', '--record', '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher_gui', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rayyan', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rayyan', 'OLDPWD': '/home/rayyan', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rayyan', 'NAME': 'DESKTOP-56CI0N9', 'WSL_INTEROP': '/run/WSL/259216_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description', 'WSLENV': ''}, 'shell': False}
+[12.914564] (-) TimerEvent: {}
+[13.016420] (-) TimerEvent: {}
+[13.117758] (-) TimerEvent: {}
+[13.220894] (-) TimerEvent: {}
+[13.321681] (-) TimerEvent: {}
+[13.424005] (-) TimerEvent: {}
+[13.524700] (-) TimerEvent: {}
+[13.625224] (-) TimerEvent: {}
+[13.725780] (-) TimerEvent: {}
+[13.827134] (-) TimerEvent: {}
+[13.928682] (-) TimerEvent: {}
+[14.029465] (-) TimerEvent: {}
+[14.134555] (-) TimerEvent: {}
+[14.235135] (-) TimerEvent: {}
+[14.335735] (-) TimerEvent: {}
+[14.436324] (-) TimerEvent: {}
+[14.537152] (-) TimerEvent: {}
+[14.638486] (-) TimerEvent: {}
+[14.741921] (-) TimerEvent: {}
+[14.841332] (joint_state_publisher_gui) StdoutLine: {'line': b'running egg_info\n'}
+[14.842710] (-) TimerEvent: {}
+[14.843944] (joint_state_publisher_gui) StdoutLine: {'line': b'writing ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/PKG-INFO\n'}
+[14.845665] (joint_state_publisher_gui) StdoutLine: {'line': b'writing dependency_links to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/dependency_links.txt\n'}
+[14.851216] (joint_state_publisher_gui) StdoutLine: {'line': b'writing entry points to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/entry_points.txt\n'}
+[14.851604] (joint_state_publisher_gui) StdoutLine: {'line': b'writing requirements to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/requires.txt\n'}
+[14.851804] (joint_state_publisher_gui) StdoutLine: {'line': b'writing top-level names to ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/top_level.txt\n'}
+[14.871050] (joint_state_publisher_gui) StdoutLine: {'line': b"reading manifest file '../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'\n"}
+[14.871767] (joint_state_publisher_gui) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[14.891511] (joint_state_publisher_gui) StdoutLine: {'line': b"writing manifest file '../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'\n"}
+[14.906757] (joint_state_publisher_gui) StdoutLine: {'line': b'running build\n'}
+[14.907335] (joint_state_publisher_gui) StdoutLine: {'line': b'running build_py\n'}
+[14.910485] (joint_state_publisher_gui) StdoutLine: {'line': b'running install\n'}
+[14.911883] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_lib\n'}
+[14.918705] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_data\n'}
+[14.919937] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.927468] (joint_state_publisher_gui) StdoutLine: {'line': b"removing '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui-2.4.0-py3.10.egg-info' (and everything under it)\n"}
+[14.942440] (joint_state_publisher_gui) StdoutLine: {'line': b'Copying ../../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info to /home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui-2.4.0-py3.10.egg-info\n'}
+[14.943142] (-) TimerEvent: {}
+[14.943602] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_scripts\n'}
+[15.043321] (-) TimerEvent: {}
+[15.081541] (joint_state_publisher_gui) StdoutLine: {'line': b'Installing joint_state_publisher_gui script to /home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/joint_state_publisher_gui\n'}
+[15.083074] (joint_state_publisher_gui) StdoutLine: {'line': b"writing list of installed files to '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/install.log'\n"}
+[15.143602] (-) TimerEvent: {}
+[15.240120] (joint_state_publisher_gui) CommandEnded: {'returncode': 0}
+[15.253003] (-) TimerEvent: {}
+[15.298482] (joint_state_publisher_gui) JobEnded: {'identifier': 'joint_state_publisher_gui', 'rc': 0}
+[15.303243] (moveit_pkg) JobStarted: {'identifier': 'moveit_pkg'}
+[15.353368] (-) TimerEvent: {}
+[15.456867] (-) TimerEvent: {}
+[15.561948] (-) TimerEvent: {}
+[15.662851] (-) TimerEvent: {}
+[15.771193] (-) TimerEvent: {}
+[15.872202] (-) TimerEvent: {}
+[15.974196] (-) TimerEvent: {}
+[16.074990] (-) TimerEvent: {}
+[16.139090] (moveit_pkg) JobProgress: {'identifier': 'moveit_pkg', 'progress': 'cmake'}
+[16.141712] (moveit_pkg) JobProgress: {'identifier': 'moveit_pkg', 'progress': 'build'}
+[16.142819] (moveit_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg', '--', '-j4', '-l4'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rayyan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rayyan'), ('OLDPWD', '/home/rayyan'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rayyan'), ('NAME', 'DESKTOP-56CI0N9'), ('WSL_INTEROP', '/run/WSL/259216_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[16.175272] (-) TimerEvent: {}
+[16.279396] (-) TimerEvent: {}
+[16.324357] (moveit_pkg) CommandEnded: {'returncode': 0}
+[16.326319] (moveit_pkg) JobProgress: {'identifier': 'moveit_pkg', 'progress': 'install'}
+[16.326442] (moveit_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rayyan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rayyan'), ('OLDPWD', '/home/rayyan'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rayyan'), ('NAME', 'DESKTOP-56CI0N9'), ('WSL_INTEROP', '/run/WSL/259216_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[16.376395] (moveit_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.376891] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_pkg\n'}
+[16.377177] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_pkg\n'}
+[16.377420] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/ament_prefix_path.sh\n'}
+[16.377632] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/ament_prefix_path.dsv\n'}
+[16.377850] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/path.sh\n'}
+[16.378049] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/path.dsv\n'}
+[16.378282] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.bash\n'}
+[16.378466] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.sh\n'}
+[16.378644] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.zsh\n'}
+[16.378829] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.dsv\n'}
+[16.379057] (moveit_pkg) StdoutLine: {'line': b'-- Installing: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.dsv\n'}
+[16.379582] (-) TimerEvent: {}
+[16.387365] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/ament_index/resource_index/packages/moveit_pkg\n'}
+[16.387805] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/cmake/moveit_pkgConfig.cmake\n'}
+[16.388062] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/cmake/moveit_pkgConfig-version.cmake\n'}
+[16.389263] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.xml\n'}
+[16.390048] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch\n'}
+[16.414031] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/static_virtual_joint_tfs.launch.py\n'}
+[16.414519] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/warehouse_db.launch.py\n'}
+[16.414824] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/rsp.launch.py\n'}
+[16.415215] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/spawn_controllers.launch.py\n'}
+[16.420994] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/moveit_rviz.launch.py\n'}
+[16.421421] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/demo.launch.py\n'}
+[16.423696] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/setup_assistant.launch.py\n'}
+[16.424076] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/move_group.launch.py\n'}
+[16.424488] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config\n'}
+[16.424810] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/moveit.rviz\n'}
+[16.425153] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/kinematics.yaml\n'}
+[16.425453] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/arduino_robot_arm.srdf\n'}
+[16.425767] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/pilz_cartesian_limits.yaml\n'}
+[16.426045] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/joint_limits.yaml\n'}
+[16.426405] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/arduino_robot_arm.ros2_control.xacro\n'}
+[16.426675] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/arduino_robot_arm.urdf.xacro\n'}
+[16.426931] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/initial_positions.yaml\n'}
+[16.427248] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/moveit_controllers.yaml\n'}
+[16.427514] (moveit_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/ros2_controllers.yaml\n'}
+[16.427726] (moveit_pkg) CommandEnded: {'returncode': 0}
+[16.484618] (-) TimerEvent: {}
+[16.566248] (moveit_pkg) JobEnded: {'identifier': 'moveit_pkg', 'rc': 0}
+[16.575672] (-) EventReactorShutdown: {}

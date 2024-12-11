@@ -1,0 +1,40 @@
+[1.459s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/opt/ros/humble PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg -- -j4 -l4
+[1.650s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg' returned '0': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/opt/ros/humble PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg -- -j4 -l4
+[1.652s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/opt/ros/humble PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg
+[1.695s] -- Install configuration: ""
+[1.696s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_pkg
+[1.696s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_pkg
+[1.696s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/ament_prefix_path.sh
+[1.697s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/ament_prefix_path.dsv
+[1.697s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/path.sh
+[1.697s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/environment/path.dsv
+[1.697s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.bash
+[1.698s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.sh
+[1.704s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.zsh
+[1.704s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/local_setup.dsv
+[1.705s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.dsv
+[1.706s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/ament_index/resource_index/packages/moveit_pkg
+[1.706s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/cmake/moveit_pkgConfig.cmake
+[1.706s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/cmake/moveit_pkgConfig-version.cmake
+[1.707s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.xml
+[1.707s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch
+[1.707s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/static_virtual_joint_tfs.launch.py
+[1.708s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/warehouse_db.launch.py
+[1.708s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/rsp.launch.py
+[1.708s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/spawn_controllers.launch.py
+[1.708s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/moveit_rviz.launch.py
+[1.708s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/demo.launch.py
+[1.709s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/setup_assistant.launch.py
+[1.709s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/launch/move_group.launch.py
+[1.709s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config
+[1.709s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/moveit.rviz
+[1.710s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/kinematics.yaml
+[1.710s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/arduino_robot_arm.srdf
+[1.710s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/pilz_cartesian_limits.yaml
+[1.710s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/joint_limits.yaml
+[1.711s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/arduino_robot_arm.ros2_control.xacro
+[1.711s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/arduino_robot_arm.urdf.xacro
+[1.711s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/initial_positions.yaml
+[1.711s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/moveit_controllers.yaml
+[1.712s] -- Up-to-date: /home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/config/ros2_controllers.yaml
+[1.725s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg' returned '0': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/opt/ros/humble PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg

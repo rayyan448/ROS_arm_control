@@ -1,0 +1,21 @@
+[5.483s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_arm_controller build --build-base /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/build install --record /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/install.log --single-version-externally-managed install_data
+[6.948s] running egg_info
+[6.950s] writing ../../build/custom_arm_controller/custom_arm_controller.egg-info/PKG-INFO
+[6.954s] writing dependency_links to ../../build/custom_arm_controller/custom_arm_controller.egg-info/dependency_links.txt
+[6.954s] writing entry points to ../../build/custom_arm_controller/custom_arm_controller.egg-info/entry_points.txt
+[6.955s] writing requirements to ../../build/custom_arm_controller/custom_arm_controller.egg-info/requires.txt
+[6.956s] writing top-level names to ../../build/custom_arm_controller/custom_arm_controller.egg-info/top_level.txt
+[6.963s] reading manifest file '../../build/custom_arm_controller/custom_arm_controller.egg-info/SOURCES.txt'
+[6.966s] writing manifest file '../../build/custom_arm_controller/custom_arm_controller.egg-info/SOURCES.txt'
+[6.967s] running build
+[6.972s] running build_py
+[6.973s] running install
+[6.973s] running install_lib
+[6.977s] running install_data
+[6.979s] running install_egg_info
+[6.990s] removing '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages/custom_arm_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[6.990s] Copying ../../build/custom_arm_controller/custom_arm_controller.egg-info to /home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages/custom_arm_controller-0.0.0-py3.10.egg-info
+[6.998s] running install_scripts
+[7.100s] Installing arm_controller script to /home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/custom_arm_controller
+[7.100s] writing list of installed files to '/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/install.log'
+[7.241s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller' returned '0': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_arm_controller build --build-base /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/build install --record /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/install.log --single-version-externally-managed install_data

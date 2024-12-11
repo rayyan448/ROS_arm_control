@@ -1,0 +1,32 @@
+[1.782s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description -- -j4 -l4
+[3.462s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description -- -j4 -l4
+[3.496s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description
+[3.535s] -- Install configuration: ""
+[3.544s] -- Execute custom install script
+[3.544s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//urdf/robot_arm.urdf
+[3.544s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//rviz/config.rviz
+[3.545s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//launch/display.launch.py
+[3.546s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/arm_1.stl
+[3.547s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/arm_2.stl
+[3.548s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/base.stl
+[3.548s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/cube.stl
+[3.549s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/gripper.stl
+[3.550s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/gripper_1.stl
+[3.551s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/waist.stl
+[3.551s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/waist_1.stl
+[3.552s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/package_run_dependencies/robot_arm_description
+[3.552s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/parent_prefix_path/robot_arm_description
+[3.552s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.sh
+[3.553s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.dsv
+[3.553s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/path.sh
+[3.554s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/path.dsv
+[3.554s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.bash
+[3.555s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.sh
+[3.555s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.zsh
+[3.556s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.dsv
+[3.557s] -- Symlinking: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.dsv
+[3.631s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/packages/robot_arm_description
+[3.635s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig.cmake
+[3.636s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig-version.cmake
+[3.636s] -- Up-to-date symlink: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.xml
+[3.648s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description

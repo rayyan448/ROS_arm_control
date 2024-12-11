@@ -1,0 +1,376 @@
+[0.332s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.332s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f18999f5c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1899af6b60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1899af6b60>>, mixin_verb=('build',))
+[0.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.793s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rayyan/robot_arm_ros2_ws'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extension 'ignore_ament_install'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extensions ['colcon_pkg']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_arm_controller) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_arm_controller' with type 'ros.ament_python' and name 'custom_arm_controller'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'ignore_ament_install'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extensions ['colcon_pkg']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'colcon_pkg'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extensions ['colcon_meta']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'ros'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extensions ['cmake', 'python']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'cmake'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'python'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extensions ['python_setup_py']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher) by extension 'python_setup_py'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extension 'colcon_pkg'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extension 'colcon_meta'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extensions ['ros']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher) by extension 'ros'
+[0.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joint_state_publisher/joint_state_publisher' with type 'ros.ament_python' and name 'joint_state_publisher'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extension 'ignore_ament_install'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_pkg']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_pkg'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_meta']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_meta'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extensions ['ros']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/joint_state_publisher/joint_state_publisher_gui) by extension 'ros'
+[0.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joint_state_publisher/joint_state_publisher_gui' with type 'ros.ament_python' and name 'joint_state_publisher_gui'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extension 'ignore'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extension 'ignore_ament_install'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extensions ['colcon_pkg']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extension 'colcon_pkg'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extensions ['colcon_meta']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extension 'colcon_meta'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extensions ['ros']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_pkg) by extension 'ros'
+[0.855s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_pkg' with type 'ros.ament_cmake' and name 'moveit_pkg'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ignore'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ignore_ament_install'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['colcon_pkg']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'colcon_pkg'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['colcon_meta']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'colcon_meta'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['ros']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ros'
+[0.858s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_arm_description' with type 'ros.ament_cmake' and name 'robot_arm_description'
+[0.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.860s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.860s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.860s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.993s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/rayyan/robot_arm_ros2_ws/install
+[0.999s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[1.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[44883.975s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'cmake_args' from command line to 'None'
+[44883.976s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'cmake_target' from command line to 'None'
+[44883.976s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[44883.977s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[44883.977s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[44883.977s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[44883.978s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[44883.978s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[44883.978s] Level 5:colcon.colcon_core.verb:set package 'custom_arm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[44883.979s] DEBUG:colcon.colcon_core.verb:Building package 'custom_arm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller', 'merge_install': False, 'path': '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller', 'symlink_install': False, 'test_result_base': None}
+[44883.985s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'cmake_args' from command line to 'None'
+[44883.986s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'cmake_target' from command line to 'None'
+[44883.986s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[44883.986s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[44883.986s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[44883.988s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[44883.989s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[44883.989s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[44883.989s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[44883.990s] DEBUG:colcon.colcon_core.verb:Building package 'joint_state_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher', 'merge_install': False, 'path': '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher', 'symlink_install': False, 'test_result_base': None}
+[44883.993s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_args' from command line to 'None'
+[44883.993s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_target' from command line to 'None'
+[44883.993s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[44883.994s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[44883.994s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[44883.994s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[44883.995s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[44883.995s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[44883.995s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[44883.996s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description', 'merge_install': False, 'path': '/home/rayyan/robot_arm_ros2_ws/src/robot_arm_description', 'symlink_install': False, 'test_result_base': None}
+[44884.007s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_args' from command line to 'None'
+[44884.008s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_target' from command line to 'None'
+[44884.008s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[44884.008s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[44884.009s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_clean_first' from command line to 'False'
+[44884.009s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'cmake_force_configure' from command line to 'False'
+[44884.009s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'ament_cmake_args' from command line to 'None'
+[44884.009s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[44884.010s] Level 5:colcon.colcon_core.verb:set package 'joint_state_publisher_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[44884.010s] DEBUG:colcon.colcon_core.verb:Building package 'joint_state_publisher_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui', 'merge_install': False, 'path': '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher_gui', 'symlink_install': False, 'test_result_base': None}
+[44884.011s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'cmake_args' from command line to 'None'
+[44884.012s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'cmake_target' from command line to 'None'
+[44884.012s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[44884.012s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[44884.013s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[44884.013s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[44884.013s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[44884.013s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[44884.013s] Level 5:colcon.colcon_core.verb:set package 'moveit_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[44884.013s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg', 'merge_install': False, 'path': '/home/rayyan/robot_arm_ros2_ws/src/moveit_pkg', 'symlink_install': False, 'test_result_base': None}
+[44884.014s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[44884.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[44884.028s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher' with build type 'ament_python'
+[44884.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher', 'ament_prefix_path')
+[44884.044s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[44884.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/hook/ament_prefix_path.ps1'
+[44884.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/hook/ament_prefix_path.dsv'
+[44884.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/hook/ament_prefix_path.sh'
+[44884.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44884.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[44884.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rayyan/robot_arm_ros2_ws/src/robot_arm_description' with build type 'ament_cmake'
+[44884.102s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rayyan/robot_arm_ros2_ws/src/robot_arm_description'
+[44884.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44884.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.383s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller' with build type 'ament_python'
+[1.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_arm_controller', 'ament_prefix_path')
+[1.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/hook/ament_prefix_path.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/hook/ament_prefix_path.dsv'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/hook/ament_prefix_path.sh'
+[1.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.908s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher'
+[2.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description -- -j4 -l4
+[3.821s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller'
+[3.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description -- -j4 -l4
+[3.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description
+[4.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_description)
+[4.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description
+[4.040s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description' for CMake module files
+[4.041s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description' for CMake config files
+[4.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_description', 'cmake_prefix_path')
+[4.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.ps1'
+[4.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.dsv'
+[4.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.sh'
+[4.057s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/bin'
+[4.057s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/lib/pkgconfig/robot_arm_description.pc'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/lib/python3.10/site-packages'
+[4.066s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/bin'
+[4.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.ps1'
+[4.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.dsv'
+[4.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.sh'
+[4.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.bash'
+[4.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.zsh'
+[4.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/colcon-core/packages/robot_arm_description)
+[4.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_description)
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description' for CMake module files
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description' for CMake config files
+[4.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_description', 'cmake_prefix_path')
+[4.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.ps1'
+[4.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.dsv'
+[4.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/hook/cmake_prefix_path.sh'
+[4.123s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/bin'
+[4.123s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/lib/pkgconfig/robot_arm_description.pc'
+[4.124s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/lib/python3.10/site-packages'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/bin'
+[4.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.ps1'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.dsv'
+[4.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.sh'
+[4.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.bash'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.zsh'
+[4.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/colcon-core/packages/robot_arm_description)
+[5.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/build install --record /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[5.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_arm_controller build --build-base /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/build install --record /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/install.log --single-version-externally-managed install_data
+[44888.980s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher' for CMake module files
+[44888.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher' returned '0': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/build install --record /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[44888.983s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher' for CMake config files
+[44888.984s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib'
+[44888.984s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/bin'
+[44888.984s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/pkgconfig/joint_state_publisher.pc'
+[44888.985s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages'
+[44888.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher', 'pythonpath')
+[44888.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/hook/pythonpath.ps1'
+[44888.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/hook/pythonpath.dsv'
+[44888.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/hook/pythonpath.sh'
+[44888.989s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/bin'
+[44888.990s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_state_publisher)
+[44888.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/package.ps1'
+[44888.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/package.dsv'
+[44888.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/package.sh'
+[44888.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/package.bash'
+[44888.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/joint_state_publisher/package.zsh'
+[44888.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/share/colcon-core/packages/joint_state_publisher)
+[44889.002s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher_gui' with build type 'ament_python'
+[44889.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher_gui', 'ament_prefix_path')
+[44889.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/ament_prefix_path.ps1'
+[44889.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/ament_prefix_path.dsv'
+[44889.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/ament_prefix_path.sh'
+[44889.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44889.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.348s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller' for CMake module files
+[6.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayyan/robot_arm_ros2_ws/src/custom_arm_controller' returned '0': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/custom_arm_controller build --build-base /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/build install --record /home/rayyan/robot_arm_ros2_ws/build/custom_arm_controller/install.log --single-version-externally-managed install_data
+[6.351s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller' for CMake config files
+[6.353s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib'
+[6.353s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/bin'
+[6.354s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/pkgconfig/custom_arm_controller.pc'
+[6.357s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages'
+[6.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_arm_controller', 'pythonpath')
+[6.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/hook/pythonpath.ps1'
+[6.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/hook/pythonpath.dsv'
+[6.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/hook/pythonpath.sh'
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/bin'
+[6.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_arm_controller)
+[6.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/package.ps1'
+[6.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/package.dsv'
+[6.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/package.sh'
+[6.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/package.bash'
+[6.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/custom_arm_controller/package.zsh'
+[6.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/share/colcon-core/packages/custom_arm_controller)
+[7.040s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher_gui'
+[7.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher_gui': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher_gui build --build-base /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/build install --record /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/install.log --single-version-externally-managed install_data
+[8.729s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui' for CMake module files
+[8.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher_gui' returned '0': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher_gui build --build-base /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/build install --record /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher_gui/install.log --single-version-externally-managed install_data
+[8.731s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui' for CMake config files
+[8.732s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib'
+[8.732s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/bin'
+[8.732s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/pkgconfig/joint_state_publisher_gui.pc'
+[8.732s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/lib/python3.10/site-packages'
+[8.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_state_publisher_gui', 'pythonpath')
+[8.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/pythonpath.ps1'
+[8.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/pythonpath.dsv'
+[8.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/hook/pythonpath.sh'
+[8.735s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/bin'
+[8.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_state_publisher_gui)
+[8.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.ps1'
+[8.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.dsv'
+[8.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.sh'
+[8.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.bash'
+[8.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/joint_state_publisher_gui/package.zsh'
+[8.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui/share/colcon-core/packages/joint_state_publisher_gui)
+[8.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rayyan/robot_arm_ros2_ws/src/moveit_pkg' with build type 'ament_cmake'
+[8.741s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rayyan/robot_arm_ros2_ws/src/moveit_pkg'
+[8.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg -- -j4 -l4
+[9.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg' returned '0': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg -- -j4 -l4
+[9.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg
+[9.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_pkg)
+[9.037s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg' for CMake module files
+[9.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/moveit_pkg' returned '0': AMENT_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description:/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher_gui:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher:/home/rayyan/robot_arm_ros2_ws/install/custom_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/moveit_pkg
+[9.043s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg' for CMake config files
+[9.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_pkg', 'cmake_prefix_path')
+[9.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/hook/cmake_prefix_path.ps1'
+[9.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/hook/cmake_prefix_path.dsv'
+[9.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/hook/cmake_prefix_path.sh'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/bin'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/lib/pkgconfig/moveit_pkg.pc'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/lib/python3.10/site-packages'
+[9.050s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/bin'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.ps1'
+[9.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.dsv'
+[9.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.sh'
+[9.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.bash'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.zsh'
+[9.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/colcon-core/packages/moveit_pkg)
+[9.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_pkg)
+[9.058s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg' for CMake module files
+[9.058s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg' for CMake config files
+[9.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_pkg', 'cmake_prefix_path')
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/hook/cmake_prefix_path.ps1'
+[9.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/hook/cmake_prefix_path.dsv'
+[9.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/hook/cmake_prefix_path.sh'
+[9.063s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/bin'
+[9.063s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/lib/pkgconfig/moveit_pkg.pc'
+[9.064s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/lib/python3.10/site-packages'
+[9.065s] Level 1:colcon.colcon_core.environment:checking '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/bin'
+[9.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.ps1'
+[9.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.dsv'
+[9.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.sh'
+[9.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.bash'
+[9.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/moveit_pkg/package.zsh'
+[9.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rayyan/robot_arm_ros2_ws/install/moveit_pkg/share/colcon-core/packages/moveit_pkg)
+[9.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.078s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.078s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.138s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.139s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[9.139s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayyan/robot_arm_ros2_ws/install/local_setup.ps1'
+[9.142s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rayyan/robot_arm_ros2_ws/install/_local_setup_util_ps1.py'
+[9.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayyan/robot_arm_ros2_ws/install/setup.ps1'
+[9.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayyan/robot_arm_ros2_ws/install/local_setup.sh'
+[9.147s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rayyan/robot_arm_ros2_ws/install/_local_setup_util_sh.py'
+[9.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayyan/robot_arm_ros2_ws/install/setup.sh'
+[9.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayyan/robot_arm_ros2_ws/install/local_setup.bash'
+[9.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayyan/robot_arm_ros2_ws/install/setup.bash'
+[9.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rayyan/robot_arm_ros2_ws/install/local_setup.zsh'
+[9.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rayyan/robot_arm_ros2_ws/install/setup.zsh'

@@ -1,0 +1,55 @@
+[0.019s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rayyan/robot_arm_ros2_ws/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description
+[0.513s] -- The C compiler identification is GNU 11.4.0
+[1.429s] -- The CXX compiler identification is GNU 11.4.0
+[1.855s] -- Detecting C compiler ABI info
+[2.127s] -- Detecting C compiler ABI info - done
+[2.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.143s] -- Detecting C compile features
+[2.145s] -- Detecting C compile features - done
+[2.152s] -- Detecting CXX compiler ABI info
+[2.354s] -- Detecting CXX compiler ABI info - done
+[2.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.364s] -- Detecting CXX compile features
+[2.366s] -- Detecting CXX compile features - done
+[2.373s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.659s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.983s] -- Configuring done
+[2.988s] -- Generating done
+[2.991s] -- Build files have been written to: /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description
+[2.999s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rayyan/robot_arm_ros2_ws/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/rayyan/robot_arm_ros2_ws/install/robot_arm_description
+[3.003s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description -- -j4 -l4
+[3.057s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description -- -j4 -l4
+[3.075s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description
+[3.086s] -- Install configuration: ""
+[3.086s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//urdf
+[3.086s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//urdf/robot_arm.urdf
+[3.087s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//rviz
+[3.087s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//rviz/config.rviz
+[3.087s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//launch
+[3.088s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//launch/display.launch.py
+[3.088s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes
+[3.089s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl
+[3.089s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/cube.stl
+[3.090s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/gripper.stl
+[3.090s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/arm_2.stl
+[3.091s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/waist.stl
+[3.091s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/waist_1.stl
+[3.092s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/base.stl
+[3.092s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/arm_1.stl
+[3.092s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description//meshes/stl/gripper_1.stl
+[3.094s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/package_run_dependencies/robot_arm_description
+[3.094s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/parent_prefix_path/robot_arm_description
+[3.095s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.sh
+[3.095s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.dsv
+[3.096s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/path.sh
+[3.096s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/environment/path.dsv
+[3.097s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.bash
+[3.098s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.sh
+[3.098s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.zsh
+[3.098s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/local_setup.dsv
+[3.099s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.dsv
+[3.099s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/ament_index/resource_index/packages/robot_arm_description
+[3.099s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig.cmake
+[3.100s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig-version.cmake
+[3.100s] -- Installing: /home/rayyan/robot_arm_ros2_ws/install/robot_arm_description/share/robot_arm_description/package.xml
+[3.104s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rayyan/robot_arm_ros2_ws/build/robot_arm_description

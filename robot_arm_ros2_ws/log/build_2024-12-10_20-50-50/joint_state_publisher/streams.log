@@ -1,0 +1,22 @@
+[5.527s] Invoking command in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/build install --record /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/install.log --single-version-externally-managed install_data
+[7.296s] running egg_info
+[7.300s] writing ../../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO
+[7.302s] writing dependency_links to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt
+[7.303s] writing entry points to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt
+[7.303s] writing requirements to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt
+[7.303s] writing top-level names to ../../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt
+[7.312s] reading manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[7.314s] adding license file 'LICENSE'
+[7.333s] writing manifest file '../../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'
+[7.335s] running build
+[7.335s] running build_py
+[7.335s] running install
+[7.338s] running install_lib
+[7.343s] running install_data
+[7.351s] running install_egg_info
+[7.358s] removing '/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info' (and everything under it)
+[7.366s] Copying ../../../build/joint_state_publisher/joint_state_publisher.egg-info to /home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info
+[7.369s] running install_scripts
+[7.571s] Installing joint_state_publisher script to /home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/joint_state_publisher
+[7.573s] writing list of installed files to '/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/install.log'
+[7.851s] Invoked command in '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher' returned '0': PYTHONPATH=/home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/install/joint_state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/joint_state_publisher build --build-base /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/build install --record /home/rayyan/robot_arm_ros2_ws/build/joint_state_publisher/install.log --single-version-externally-managed install_data

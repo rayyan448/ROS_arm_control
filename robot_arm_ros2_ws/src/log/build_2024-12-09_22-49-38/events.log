@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.007130] (joint_state_publisher) JobQueued: {'identifier': 'joint_state_publisher', 'dependencies': OrderedDict()}
+[0.008752] (robot_arm_description) JobQueued: {'identifier': 'robot_arm_description', 'dependencies': OrderedDict()}
+[0.008904] (joint_state_publisher_gui) JobQueued: {'identifier': 'joint_state_publisher_gui', 'dependencies': OrderedDict([('joint_state_publisher', '/home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher')])}
+[0.009031] (moveit_pkg) JobQueued: {'identifier': 'moveit_pkg', 'dependencies': OrderedDict([('joint_state_publisher', '/home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher'), ('robot_arm_description', '/home/rayyan/robot_arm_ros2_ws/src/install/robot_arm_description'), ('joint_state_publisher_gui', '/home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui')])}
+[0.009155] (joint_state_publisher) JobStarted: {'identifier': 'joint_state_publisher'}
+[0.063740] (robot_arm_description) JobStarted: {'identifier': 'robot_arm_description'}
+[0.099678] (-) TimerEvent: {}
+[0.200955] (-) TimerEvent: {}
+[0.302075] (-) TimerEvent: {}
+[0.402811] (-) TimerEvent: {}
+[0.503785] (-) TimerEvent: {}
+[0.605019] (-) TimerEvent: {}
+[0.705757] (-) TimerEvent: {}
+[0.809932] (-) TimerEvent: {}
+[0.912592] (-) TimerEvent: {}
+[1.018877] (-) TimerEvent: {}
+[1.119729] (-) TimerEvent: {}
+[1.220802] (-) TimerEvent: {}
+[1.229359] (robot_arm_description) JobProgress: {'identifier': 'robot_arm_description', 'progress': 'cmake'}
+[1.232172] (robot_arm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/rayyan/robot_arm_ros2_ws/src/robot_arm_description', '-DCMAKE_INSTALL_PREFIX=/home/rayyan/robot_arm_ros2_ws/src/install/robot_arm_description'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/src/build/robot_arm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rayyan'), ('SHLVL', '1'), ('HOME', '/home/rayyan'), ('OLDPWD', '/home/rayyan/robot_arm_ros2_ws'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'rayyan'), ('NAME', 'DESKTOP-56CI0N9'), ('WSL_INTEROP', '/run/WSL/63320_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/rayyan/robot_arm_ros2_ws/src/build/robot_arm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[1.323801] (-) TimerEvent: {}
+[1.427017] (-) TimerEvent: {}
+[1.529327] (-) TimerEvent: {}
+[1.630234] (-) TimerEvent: {}
+[1.730890] (-) TimerEvent: {}
+[1.831667] (-) TimerEvent: {}
+[1.933072] (-) TimerEvent: {}
+[2.034233] (-) TimerEvent: {}
+[2.136128] (-) TimerEvent: {}
+[2.239852] (-) TimerEvent: {}
+[2.340435] (-) TimerEvent: {}
+[2.442948] (-) TimerEvent: {}
+[2.545992] (-) TimerEvent: {}
+[2.661392] (-) TimerEvent: {}
+[2.763551] (-) TimerEvent: {}
+[2.868505] (-) TimerEvent: {}
+[2.969377] (-) TimerEvent: {}
+[3.020024] (robot_arm_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.070695] (-) TimerEvent: {}
+[3.187750] (-) TimerEvent: {}
+[3.295633] (-) TimerEvent: {}
+[3.400479] (-) TimerEvent: {}
+[3.501382] (-) TimerEvent: {}
+[3.603640] (-) TimerEvent: {}
+[3.704256] (-) TimerEvent: {}
+[3.805150] (-) TimerEvent: {}
+[3.906101] (-) TimerEvent: {}
+[4.010128] (-) TimerEvent: {}
+[4.111038] (-) TimerEvent: {}
+[4.154662] (joint_state_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joint_state_publisher', 'build', '--build-base', '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build', 'install', '--record', '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rayyan', 'SHLVL': '1', 'HOME': '/home/rayyan', 'OLDPWD': '/home/rayyan/robot_arm_ros2_ws', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'rayyan', 'NAME': 'DESKTOP-56CI0N9', 'WSL_INTEROP': '/run/WSL/63320_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'PYTHONPATH': '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages:'}, 'shell': False}
+[4.220799] (-) TimerEvent: {}
+[4.330480] (-) TimerEvent: {}
+[4.431318] (-) TimerEvent: {}
+[4.533879] (-) TimerEvent: {}
+[4.634626] (-) TimerEvent: {}
+[4.735241] (-) TimerEvent: {}
+[4.835875] (-) TimerEvent: {}
+[4.936852] (-) TimerEvent: {}
+[5.040129] (-) TimerEvent: {}
+[5.140919] (-) TimerEvent: {}
+[5.245256] (-) TimerEvent: {}
+[5.346554] (-) TimerEvent: {}
+[5.447137] (-) TimerEvent: {}
+[5.548197] (-) TimerEvent: {}
+[5.559366] (robot_arm_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.641695] (joint_state_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[5.644962] (joint_state_publisher) StdoutLine: {'line': b'creating ../../build/joint_state_publisher/joint_state_publisher.egg-info\n'}
+[5.645732] (joint_state_publisher) StdoutLine: {'line': b'writing ../../build/joint_state_publisher/joint_state_publisher.egg-info/PKG-INFO\n'}
+[5.646512] (joint_state_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/joint_state_publisher/joint_state_publisher.egg-info/dependency_links.txt\n'}
+[5.646978] (joint_state_publisher) StdoutLine: {'line': b'writing entry points to ../../build/joint_state_publisher/joint_state_publisher.egg-info/entry_points.txt\n'}
+[5.647450] (joint_state_publisher) StdoutLine: {'line': b'writing requirements to ../../build/joint_state_publisher/joint_state_publisher.egg-info/requires.txt\n'}
+[5.647738] (joint_state_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/joint_state_publisher/joint_state_publisher.egg-info/top_level.txt\n'}
+[5.648353] (-) TimerEvent: {}
+[5.654735] (joint_state_publisher) StdoutLine: {'line': b"writing manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'\n"}
+[5.682320] (joint_state_publisher) StdoutLine: {'line': b"reading manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'\n"}
+[5.682723] (joint_state_publisher) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.682975] (joint_state_publisher) StdoutLine: {'line': b"writing manifest file '../../build/joint_state_publisher/joint_state_publisher.egg-info/SOURCES.txt'\n"}
+[5.683237] (joint_state_publisher) StdoutLine: {'line': b'running build\n'}
+[5.683637] (joint_state_publisher) StdoutLine: {'line': b'running build_py\n'}
+[5.683915] (joint_state_publisher) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build\n'}
+[5.684175] (joint_state_publisher) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build/lib\n'}
+[5.684651] (joint_state_publisher) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build/lib/joint_state_publisher\n'}
+[5.684954] (joint_state_publisher) StdoutLine: {'line': b'copying joint_state_publisher/__init__.py -> /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build/lib/joint_state_publisher\n'}
+[5.685348] (joint_state_publisher) StdoutLine: {'line': b'copying joint_state_publisher/joint_state_publisher.py -> /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build/lib/joint_state_publisher\n'}
+[5.685916] (joint_state_publisher) StdoutLine: {'line': b'running install\n'}
+[5.686302] (joint_state_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[5.686716] (joint_state_publisher) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher\n'}
+[5.699900] (joint_state_publisher) StdoutLine: {'line': b'copying /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build/lib/joint_state_publisher/__init__.py -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher\n'}
+[5.700753] (joint_state_publisher) StdoutLine: {'line': b'copying /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/build/lib/joint_state_publisher/joint_state_publisher.py -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher\n'}
+[5.702201] (joint_state_publisher) StdoutLine: {'line': b'byte-compiling /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[5.704075] (joint_state_publisher) StdoutLine: {'line': b'byte-compiling /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher/joint_state_publisher.py to joint_state_publisher.cpython-310.pyc\n'}
+[5.721073] (joint_state_publisher) StdoutLine: {'line': b'running install_data\n'}
+[5.721558] (joint_state_publisher) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/share/ament_index\n'}
+[5.721864] (joint_state_publisher) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/share/ament_index/resource_index\n'}
+[5.722194] (joint_state_publisher) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/share/ament_index/resource_index/packages\n'}
+[5.723296] (joint_state_publisher) StdoutLine: {'line': b'copying resource/joint_state_publisher -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/share/ament_index/resource_index/packages\n'}
+[5.726534] (joint_state_publisher) StdoutLine: {'line': b'copying package.xml -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/share/joint_state_publisher\n'}
+[5.727793] (joint_state_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.740335] (joint_state_publisher) StdoutLine: {'line': b'Copying ../../build/joint_state_publisher/joint_state_publisher.egg-info to /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages/joint_state_publisher-2.4.0-py3.10.egg-info\n'}
+[5.741340] (joint_state_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[5.749141] (-) TimerEvent: {}
+[5.858386] (joint_state_publisher) StdoutLine: {'line': b'Installing joint_state_publisher script to /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/joint_state_publisher\n'}
+[5.859227] (-) TimerEvent: {}
+[5.859662] (joint_state_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher/install.log'\n"}
+[5.959517] (-) TimerEvent: {}
+[6.022552] (joint_state_publisher) CommandEnded: {'returncode': 0}
+[6.060639] (-) TimerEvent: {}
+[6.093731] (joint_state_publisher) JobEnded: {'identifier': 'joint_state_publisher', 'rc': 0}
+[6.094738] (joint_state_publisher_gui) JobStarted: {'identifier': 'joint_state_publisher_gui'}
+[6.161431] (-) TimerEvent: {}
+[6.262939] (-) TimerEvent: {}
+[6.363506] (-) TimerEvent: {}
+[6.464793] (-) TimerEvent: {}
+[6.566117] (-) TimerEvent: {}
+[6.668097] (-) TimerEvent: {}
+[6.770482] (-) TimerEvent: {}
+[6.873410] (-) TimerEvent: {}
+[6.975213] (-) TimerEvent: {}
+[7.082503] (-) TimerEvent: {}
+[7.187879] (-) TimerEvent: {}
+[7.288499] (-) TimerEvent: {}
+[7.389820] (-) TimerEvent: {}
+[7.491808] (-) TimerEvent: {}
+[7.592505] (-) TimerEvent: {}
+[7.693288] (-) TimerEvent: {}
+[7.767020] (robot_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.797036] (-) TimerEvent: {}
+[7.901676] (-) TimerEvent: {}
+[8.005923] (-) TimerEvent: {}
+[8.109273] (-) TimerEvent: {}
+[8.210556] (-) TimerEvent: {}
+[8.311287] (-) TimerEvent: {}
+[8.412354] (-) TimerEvent: {}
+[8.514095] (-) TimerEvent: {}
+[8.618289] (-) TimerEvent: {}
+[8.653055] (robot_arm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.718688] (-) TimerEvent: {}
+[8.727046] (robot_arm_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.728299] (robot_arm_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.730596] (robot_arm_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.755490] (robot_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.822236] (-) TimerEvent: {}
+[8.923423] (-) TimerEvent: {}
+[9.024685] (-) TimerEvent: {}
+[9.127529] (-) TimerEvent: {}
+[9.228579] (-) TimerEvent: {}
+[9.330527] (-) TimerEvent: {}
+[9.438507] (-) TimerEvent: {}
+[9.542262] (-) TimerEvent: {}
+[9.651044] (-) TimerEvent: {}
+[9.663955] (robot_arm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.741083] (robot_arm_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.755794] (-) TimerEvent: {}
+[9.760330] (robot_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.765795] (robot_arm_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.856087] (-) TimerEvent: {}
+[9.957222] (-) TimerEvent: {}
+[10.057877] (-) TimerEvent: {}
+[10.158476] (-) TimerEvent: {}
+[10.260508] (-) TimerEvent: {}
+[10.361553] (-) TimerEvent: {}
+[10.462281] (-) TimerEvent: {}
+[10.562991] (-) TimerEvent: {}
+[10.665366] (-) TimerEvent: {}
+[10.767640] (-) TimerEvent: {}
+[10.869807] (-) TimerEvent: {}
+[10.973993] (-) TimerEvent: {}
+[11.074799] (-) TimerEvent: {}
+[11.126745] (joint_state_publisher_gui) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joint_state_publisher_gui', 'build', '--build-base', '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build', 'install', '--record', '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rayyan/robot_arm_ros2_ws/src/joint_state_publisher/joint_state_publisher_gui', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rayyan', 'SHLVL': '1', 'HOME': '/home/rayyan', 'OLDPWD': '/home/rayyan/robot_arm_ros2_ws', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'rayyan', 'NAME': 'DESKTOP-56CI0N9', 'WSL_INTEROP': '/run/WSL/63320_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/CMake/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/LENOVO/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/LENOVO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/LENOVO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher/lib/python3.10/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[11.174984] (-) TimerEvent: {}
+[11.275977] (-) TimerEvent: {}
+[11.377280] (-) TimerEvent: {}
+[11.478620] (-) TimerEvent: {}
+[11.579642] (-) TimerEvent: {}
+[11.680215] (-) TimerEvent: {}
+[11.781294] (-) TimerEvent: {}
+[11.881987] (-) TimerEvent: {}
+[11.983529] (-) TimerEvent: {}
+[12.084384] (-) TimerEvent: {}
+[12.185026] (-) TimerEvent: {}
+[12.286317] (-) TimerEvent: {}
+[12.376775] (joint_state_publisher_gui) StdoutLine: {'line': b'running egg_info\n'}
+[12.380768] (joint_state_publisher_gui) StdoutLine: {'line': b'creating ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info\n'}
+[12.382090] (joint_state_publisher_gui) StdoutLine: {'line': b'writing ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/PKG-INFO\n'}
+[12.386310] (joint_state_publisher_gui) StdoutLine: {'line': b'writing dependency_links to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/dependency_links.txt\n'}
+[12.387923] (-) TimerEvent: {}
+[12.389081] (joint_state_publisher_gui) StdoutLine: {'line': b'writing entry points to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/entry_points.txt\n'}
+[12.390102] (joint_state_publisher_gui) StdoutLine: {'line': b'writing requirements to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/requires.txt\n'}
+[12.390796] (joint_state_publisher_gui) StdoutLine: {'line': b'writing top-level names to ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/top_level.txt\n'}
+[12.392021] (joint_state_publisher_gui) StdoutLine: {'line': b"writing manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'\n"}
+[12.400671] (joint_state_publisher_gui) StdoutLine: {'line': b"reading manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'\n"}
+[12.403975] (joint_state_publisher_gui) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[12.410711] (joint_state_publisher_gui) StdoutLine: {'line': b"writing manifest file '../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info/SOURCES.txt'\n"}
+[12.413323] (joint_state_publisher_gui) StdoutLine: {'line': b'running build\n'}
+[12.414521] (joint_state_publisher_gui) StdoutLine: {'line': b'running build_py\n'}
+[12.416355] (joint_state_publisher_gui) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build\n'}
+[12.418136] (joint_state_publisher_gui) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib\n'}
+[12.418689] (joint_state_publisher_gui) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui\n'}
+[12.419147] (joint_state_publisher_gui) StdoutLine: {'line': b'copying joint_state_publisher_gui/flow_layout.py -> /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui\n'}
+[12.420004] (joint_state_publisher_gui) StdoutLine: {'line': b'copying joint_state_publisher_gui/__init__.py -> /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui\n'}
+[12.420455] (joint_state_publisher_gui) StdoutLine: {'line': b'copying joint_state_publisher_gui/joint_state_publisher_gui.py -> /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui\n'}
+[12.422079] (joint_state_publisher_gui) StdoutLine: {'line': b'running install\n'}
+[12.423453] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_lib\n'}
+[12.427472] (joint_state_publisher_gui) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui\n'}
+[12.435918] (joint_state_publisher_gui) StdoutLine: {'line': b'copying /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/flow_layout.py -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui\n'}
+[12.436523] (joint_state_publisher_gui) StdoutLine: {'line': b'copying /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/__init__.py -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui\n'}
+[12.436890] (joint_state_publisher_gui) StdoutLine: {'line': b'copying /home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/build/lib/joint_state_publisher_gui/joint_state_publisher_gui.py -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui\n'}
+[12.437219] (joint_state_publisher_gui) StdoutLine: {'line': b'byte-compiling /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui/flow_layout.py to flow_layout.cpython-310.pyc\n'}
+[12.443590] (joint_state_publisher_gui) StdoutLine: {'line': b'byte-compiling /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui/__init__.py to __init__.cpython-310.pyc\n'}
+[12.445264] (joint_state_publisher_gui) StdoutLine: {'line': b'byte-compiling /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui/joint_state_publisher_gui.py to joint_state_publisher_gui.cpython-310.pyc\n'}
+[12.455755] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_data\n'}
+[12.457122] (joint_state_publisher_gui) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/share/ament_index\n'}
+[12.458108] (joint_state_publisher_gui) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/share/ament_index/resource_index\n'}
+[12.460134] (joint_state_publisher_gui) StdoutLine: {'line': b'creating /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/share/ament_index/resource_index/packages\n'}
+[12.471501] (joint_state_publisher_gui) StdoutLine: {'line': b'copying resource/joint_state_publisher_gui -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/share/ament_index/resource_index/packages\n'}
+[12.472171] (joint_state_publisher_gui) StdoutLine: {'line': b'copying package.xml -> /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/share/joint_state_publisher_gui\n'}
+[12.472412] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.478199] (joint_state_publisher_gui) StdoutLine: {'line': b'Copying ../../build/joint_state_publisher_gui/joint_state_publisher_gui.egg-info to /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/python3.10/site-packages/joint_state_publisher_gui-2.4.0-py3.10.egg-info\n'}
+[12.484953] (joint_state_publisher_gui) StdoutLine: {'line': b'running install_scripts\n'}
+[12.488137] (-) TimerEvent: {}
+[12.591523] (-) TimerEvent: {}
+[12.606244] (joint_state_publisher_gui) StdoutLine: {'line': b'Installing joint_state_publisher_gui script to /home/rayyan/robot_arm_ros2_ws/src/install/joint_state_publisher_gui/lib/joint_state_publisher_gui\n'}
+[12.608539] (joint_state_publisher_gui) StdoutLine: {'line': b"writing list of installed files to '/home/rayyan/robot_arm_ros2_ws/src/build/joint_state_publisher_gui/install.log'\n"}
+[12.689906] (-) TimerEvent: {}
+[12.794379] (-) TimerEvent: {}
+[12.813850] (joint_state_publisher_gui) CommandEnded: {'returncode': 0}
+[12.830312] (joint_state_publisher_gui) JobEnded: {'identifier': 'joint_state_publisher_gui', 'rc': 0}
+[12.894284] (-) TimerEvent: {}
+[12.997078] (-) TimerEvent: {}
+[13.097747] (-) TimerEvent: {}
+[13.199629] (-) TimerEvent: {}
+[13.301874] (-) TimerEvent: {}
+[13.402450] (-) TimerEvent: {}
+[13.503565] (-) TimerEvent: {}
+[13.604597] (-) TimerEvent: {}
+[13.711409] (-) TimerEvent: {}
+[13.812125] (-) TimerEvent: {}
+[13.912841] (-) TimerEvent: {}
+[14.013634] (-) TimerEvent: {}
+[14.115876] (-) TimerEvent: {}
+[14.217089] (-) TimerEvent: {}
+[14.320243] (-) TimerEvent: {}
+[14.420930] (-) TimerEvent: {}
+[14.521563] (-) TimerEvent: {}
+[14.622197] (-) TimerEvent: {}
+[14.724490] (-) TimerEvent: {}
+[14.825110] (-) TimerEvent: {}
+[14.925841] (-) TimerEvent: {}
+[15.026768] (-) TimerEvent: {}
+[15.131503] (-) TimerEvent: {}
+[15.232988] (-) TimerEvent: {}
+[15.334211] (-) TimerEvent: {}
+[15.434934] (-) TimerEvent: {}
+[15.536737] (-) TimerEvent: {}
+[15.637763] (-) TimerEvent: {}
+[15.739082] (-) TimerEvent: {}
+[15.840120] (-) TimerEvent: {}
+[15.857242] (robot_arm_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[15.857936] (robot_arm_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[15.858512] (robot_arm_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[15.858792] (robot_arm_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[15.859048] (robot_arm_description) StderrLine: {'line': b'\n'}
+[15.859342] (robot_arm_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[15.859589] (robot_arm_description) StderrLine: {'line': b'  any of the following names:\n'}
+[15.859884] (robot_arm_description) StderrLine: {'line': b'\n'}
+[15.860140] (robot_arm_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[15.860363] (robot_arm_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[15.860579] (robot_arm_description) StderrLine: {'line': b'\n'}
+[15.860791] (robot_arm_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[15.860999] (robot_arm_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[15.861329] (robot_arm_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[15.861693] (robot_arm_description) StderrLine: {'line': b'  has been installed.\n'}
+[15.861981] (robot_arm_description) StderrLine: {'line': b'\n'}
+[15.862259] (robot_arm_description) StderrLine: {'line': b'\x1b[0m\n'}
+[15.862542] (robot_arm_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.862852] (robot_arm_description) StdoutLine: {'line': b'See also "/home/rayyan/robot_arm_ros2_ws/src/build/robot_arm_description/CMakeFiles/CMakeOutput.log".\n'}
+[15.876996] (robot_arm_description) CommandEnded: {'returncode': 1}
+[15.926847] (robot_arm_description) JobEnded: {'identifier': 'robot_arm_description', 'rc': 1}
+[15.940435] (moveit_pkg) JobSkipped: {'identifier': 'moveit_pkg'}
+[15.940869] (-) TimerEvent: {}
+[15.941259] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/rayyan/robot_arm_ros2_ws/src/build/robot_arm_description': /usr/bin/cmake /home/rayyan/robot_arm_ros2_ws/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/rayyan/robot_arm_ros2_ws/src/install/robot_arm_description
+Invoked command in '/home/rayyan/robot_arm_ros2_ws/src/build/robot_arm_description' returned '1': /usr/bin/cmake /home/rayyan/robot_arm_ros2_ws/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/rayyan/robot_arm_ros2_ws/src/install/robot_arm_description
